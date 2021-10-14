@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using ImageCircle.Forms.Plugin.iOS;
+using Prism;
+using Prism.Ioc;
 using UIKit;
 
 namespace LegendRank.iOS
@@ -23,9 +26,18 @@ namespace LegendRank.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            ImageCircleRenderer.Init();
+            LoadApplication(new App(new IosInitializer()));
 
             return base.FinishedLaunching(app, options);
+        }
+
+        public class IosInitializer : IPlatformInitializer
+        {
+            public void RegisterTypes(IContainerRegistry containerRegistry)
+            {
+
+            }
         }
     }
 }

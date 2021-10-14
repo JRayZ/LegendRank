@@ -17,8 +17,6 @@ namespace LegendRank
     {
         public App(IPlatformInitializer plataformInitializer = null) : base(plataformInitializer) { }
 
-
-
         protected override async void OnInitialized()
         {
             InitializeComponent();

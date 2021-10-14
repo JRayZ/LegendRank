@@ -1,8 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LegendRank.App">
-    <Application.Resources>
+             x:Class="LegendRank.App"
+             xmlns:prism="http://prismlibrary.com">
+    <prism:PrismApplication.Resources>
+        <Style x:Key="CustomButton" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="OrangeRed"/>
+            <Setter Property="CornerRadius" Value="30"/>
+        </Style>
+        <Color x:Key="WinningTeamColor">Blue</Color>
+        <Color x:Key="LosingTeamColor">Red</Color>
 
-    </Application.Resources>
-</Application>
+    </prism:PrismApplication.Resources>
+    </prism:PrismApplication>

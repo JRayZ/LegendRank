@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace LolApp.Views
+namespace LegendRank.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MatchTabbedPage : TabbedPage

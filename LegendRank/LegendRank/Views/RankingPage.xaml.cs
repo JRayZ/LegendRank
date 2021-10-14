@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace LolApp.Views
+namespace LegendRank.Views
 {
     public partial class RankingPage : ContentPage
     {

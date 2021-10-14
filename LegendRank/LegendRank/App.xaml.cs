@@ -19,6 +19,7 @@ namespace LegendRank
 
         protected override async void OnInitialized()
         {
+
             InitializeComponent();
             //await NavigationService.NavigateAsync($"/{NavigationConstant.SummonerPage}");   
             /*StreamReader strm = new StreamReader(Android.App.Application.Context.Assets.Open("MatchTest.json"));

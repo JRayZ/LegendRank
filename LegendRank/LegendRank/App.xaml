@@ -10,6 +10,5 @@
         </Style>
         <Color x:Key="WinningTeamColor">Blue</Color>
         <Color x:Key="LosingTeamColor">Red</Color>
-
     </prism:PrismApplication.Resources>
     </prism:PrismApplication>

@@ -21,27 +21,13 @@ namespace LegendRank
         {
 
             InitializeComponent();
-            //await NavigationService.NavigateAsync($"/{NavigationConstant.SummonerPage}");   
-            /*StreamReader strm = new StreamReader(Android.App.Application.Context.Assets.Open("MatchTest.json"));
-            var response = strm.ReadToEnd();*/
-
-
-            /*Match match = JsonConvert.DeserializeObject<Match>(response);
-            strm = new StreamReader(Android.App.Application.Context.Assets.Open("PlayerTest.json"));
-            response = strm.ReadToEnd();
-            Summoner summoner = JsonConvert.DeserializeObject<Summoner>(response);
-            var parameters = new NavigationParameters();
-            parameters.Add(NavigationConstant.MatchParam, match);
-            parameters.Add(NavigationConstant.SummonerParam, summoner);*/
-
-
-            //MatchTabbedPage
 
             await NavigationService.NavigateAsync($"{NavigationConstant.NavigationPage}/{NavigationConstant.SummonerPage}");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+
             containerRegistry.Register<ILolIconsApiService, LolIconsApiService>();
             containerRegistry.Register<ISummonerLeagueApiService, SummonerLeagueApiService>();
             containerRegistry.Register<ISummonerApiService, SummonerApiService>();

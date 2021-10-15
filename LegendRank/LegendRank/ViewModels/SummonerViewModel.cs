@@ -15,7 +15,7 @@ namespace LegendRank.ViewModels
 {
     class SummonerViewModel : BaseViewModel
     {
-        public string Title { get; } = "League of Legends App";
+        public string Title { get; } = "LegendsRank";
         public Summoner Summoner { get; set; }
         public bool Show { get; set; } = false;
         public string SummonerName { get; set; }

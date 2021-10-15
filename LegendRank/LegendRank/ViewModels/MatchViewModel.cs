@@ -1,4 +1,4 @@
-﻿using Android.App;
+﻿//using Android.App;
 using LegendRank.Models;
 using LegendRank.Services;
 using Newtonsoft.Json;

@@ -2,33 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LegendRank.Views.SummonerPage"
-             Title="{Binding Title}">
+             Title="{Binding Title}" 
+             BackgroundImageSource="Lulubackground.jpg">
     <ContentPage.Content>
-        <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,2*,*" BackgroundColor="White">
+        <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,2*,*" >
 
-            <Label 
-                Grid.Row="0" 
-                Grid.Column="1" 
-                VerticalOptions="Center" 
-                Text="Summoner Finder" 
-                FontSize="Large" 
-                HorizontalTextAlignment="Center" 
-                HorizontalOptions="Center" 
-                Margin="0,0,0,50" 
-                FontFamily="sans-serif" 
-                TextColor="Black" 
-                TextTransform="Uppercase" />
+            <Image Source="LEGENDSRANK.png" 
+                   HorizontalOptions="CenterAndExpand"
+                   Grid.Row="0"
+                   Grid.Column="1"/>
 
-            <Entry Grid.Row="0" 
+            <Entry Grid.Row="1" 
                 Grid.Column="1" 
-                Text="{Binding SummonerName}" 
+                Text="{Binding SummonerName}"
                 VerticalOptions="End"
                 Margin="0,80,0,0"
-                Placeholder="Type a summoner name here..."
+                Placeholder="Username Here"
                 HorizontalTextAlignment="Center"/>
 
+
             <Button 
-                Grid.Row="1" 
+                Grid.Row="2" 
                 Grid.Column="1" 
                 Text="Find Summoner Level" 
                 Command="{Binding GetSummonerCommand}" 

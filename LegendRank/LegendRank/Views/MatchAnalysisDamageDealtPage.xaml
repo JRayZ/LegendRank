@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:viewmodels="clr-namespace:LegendRank.ViewModels" 
-             x:DataType="viewmodels:MatchViewModel"
-             xmlns:models="clr-namespace:LegendRank.Models"
-             x:DataType="models:Champion"
-             x:DataType="models:Stats"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LegendRank.Views.MatchAnalysisDamageDealtPage"
+             xmlns:local="clr-namespace:LegendRank.Views"
              Title="Damage Dealt"
-             x:Name="ChampionDamagePage"
-             >
+             x:Name="ChampionDamagePage">
+             
     <ContentPage.Content>
         <Grid RowDefinitions="Auto, *" ColumnDefinitions="*,*" Margin="0">
             <Label Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center">

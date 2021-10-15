@@ -13,7 +13,7 @@ namespace LegendRank
     public static class Config
     {
         //Api Key
-        public const string ApiKey = "Api Key Here";
+        public const string ApiKey = "RGAPI-f0ea5578-3543-4f89-abf1-8542db660a92";
 
 
         //Ranking data endpoints

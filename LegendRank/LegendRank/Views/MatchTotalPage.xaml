@@ -2,9 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LegendRank.Views.MatchTotalPage"
+             xmlns:local="clr-namespace:LegendRank.Views"
              xmlns:controls="clr-namespace:LegendRank.Controls" 
-             xmlns:viewmodels="clr-namespace:LegendRank.ViewModels" 
-             x:DataType="viewmodels:MatchViewModel"
              Title="Total"
              >
     <ContentPage.Content>

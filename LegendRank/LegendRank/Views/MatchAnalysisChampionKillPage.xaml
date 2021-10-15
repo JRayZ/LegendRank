@@ -1,13 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:viewmodels="clr-namespace:LegendRank.ViewModels" 
-             x:DataType="viewmodels:MatchViewModel"
-             xmlns:models="clr-namespace:LegendRank.Models"
-             x:DataType="models:Participant"
-             x:DataType="models:Champion"
-             x:DataType="models:Stats"
              x:Class="LegendRank.Views.MatchAnalysisChampionKillPage"
+             xmlns:local="clr-namespace:LegendRank.Views"
              Title="Champion Kills"
              x:Name="ChampionKillsPage">
     <ContentPage.Content>

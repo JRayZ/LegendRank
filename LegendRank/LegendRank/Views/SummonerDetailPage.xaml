@@ -2,11 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LegendRank.Views.SummonerDetailPage"
+             xmlns:local="clr-namespace:LegendRank.Views"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin" 
-             xmlns:viewmodels="clr-namespace:LegendRank.ViewModels" 
-             xmlns:models="clr-namespace:LegendRank.Models"
-             x:DataType="viewmodels:SummonerDetailViewModel"
-             x:DataType="models:Stats"
              x:Name="summonerDetail"
              >
     <ContentPage.Content >

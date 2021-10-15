@@ -19,12 +19,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
     <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="6.13.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="Prism.Core" Version="8.1.97" />
-    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
-    <PackageReference Include="Prism.Forms" Version="8.1.97" />
-    <PackageReference Include="Prism.Unity" Version="8.1.97" />
     <PackageReference Include="Prism.Unity.Forms" Version="8.1.97" />
-    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
     <PackageReference Include="Refit" Version="6.1.15" />
     <PackageReference Include="Refit.HttpClientFactory" Version="6.1.15" />
     <PackageReference Include="Refit.Newtonsoft.Json" Version="6.1.15" />

@@ -66,6 +66,7 @@ namespace LegendRank.ViewModels
                 }
                 else
                 {
+                    
                     Show = true;
                 }
 

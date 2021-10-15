@@ -13,6 +13,11 @@
                    Grid.Row="0"
                    Grid.Column="1"/>
 
+            <Image Source="teemorotating.png" 
+                   HorizontalOptions="CenterAndExpand"
+                   Grid.Row="3"
+                   Grid.Column="1"/>
+
             <Entry Grid.Row="1" 
                 Grid.Column="1" 
                 Text="{Binding SummonerName}"

@@ -2,9 +2,9 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LegendRank.Views.MatchTabbedPage"
-           xmlns:local="clr-namespace:LegendRank.Views"
-            
-            >
+           xmlns:local="clr-namespace:LegendRank.Views" 
+            xmlns:viewmodels="clr-namespace:LegendRank.ViewModels" 
+            x:DataType="viewmodels:MatchViewModel">
     <NavigationPage.TitleView>
         <Grid ColumnDefinitions="*,Auto,Auto,Auto" RowDefinitions="*">
             <Label TextColor="White" FontSize="Large" FontAttributes="Bold" Grid.Column="0">

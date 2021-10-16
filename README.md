@@ -26,7 +26,7 @@ https://trello.com/b/3PKhTRPR/valrank-xamarin-app
 | Nombres          | ID          |
 | :----            |    :----:   |
 | Robert Genao     | 1071499     |
-| Jhonatan Sanchez | 107       |
+| Jhonatan Sanchez | 1076689     |
 
 Robert Genao
 Jhonatan Sanchez

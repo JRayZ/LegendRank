@@ -8,7 +8,9 @@
 
  
 
-![](LegendRank/LegendRank.Android/Resources/drawable/BlueBaron.png)
+![](LegendRank/LegendRank.Android/Resources/drawable/mockup1.jpg)
+![](LegendRank/LegendRank.Android/Resources/drawable/mockup2.jpg)
+![](LegendRank/LegendRank.Android/Resources/drawable/mockup3.jpg)
 
 ### Trello board:
 

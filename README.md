@@ -19,7 +19,7 @@ https://trello.com/b/3PKhTRPR/legendsrank-xamarin-app
 ### Screenshots of our app:
 
 ![](LegendRank/LegendRank.Android/Resources/drawable/1.jpg)
-![](LegendRank/LegendRank.Android/Resources/drawable/2.jpg)
+![](LegendRank/LegendRank.Android/Resources/drawable/2.jfif)
 ![](LegendRank/LegendRank.Android/Resources/drawable/4.jpg)
 
 

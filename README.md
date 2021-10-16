@@ -14,7 +14,7 @@
 
 ### Trello board:
 
-https://trello.com/b/3PKhTRPR/valrank-xamarin-app
+https://trello.com/b/3PKhTRPR/legendsrank-xamarin-app
 
 ### Screenshots of our app:
 

@@ -2,13 +2,15 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LegendRank.Views.MatchAnalysisTabbedPage"
-            xmlns:local="clr-namespace:LegendRank.Views"
+            xmlns:LegendRank="clr-namespace:LegendRank.Views"
             Title="Analysis"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            BackgroundImageSource="fondoleague.jpg"
             >
   <!--Pages can be added as references or inline-->
     <TabbedPage.Children>
-        <local:MatchAnalysisChampionKillPage/>
-        <local:MatchAnalysisGoldPage/>
-        <local:MatchAnalysisDamageDealtPage/>
+        <LegendRank:MatchAnalysisChampionKillPage/>
+        <LegendRank:MatchAnalysisGoldPage/>
+        <LegendRank:MatchAnalysisDamageDealtPage/>
     </TabbedPage.Children>
 </TabbedPage>

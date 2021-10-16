@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using LegendRank.ViewModels;
 
 namespace LegendRank.Views
 {
@@ -15,5 +16,6 @@ namespace LegendRank.Views
         {
             InitializeComponent();
         }
+
     }
 }

@@ -2,10 +2,10 @@
 <prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LegendRank.App"
-             xmlns:prism="http://prismlibrary.com">
+             xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Unity.Forms">
     <prism:PrismApplication.Resources>
         <Style x:Key="CustomButton" TargetType="Button">
-            <Setter Property="BackgroundColor" Value="OrangeRed"/>
+            <Setter Property="BackgroundColor" Value="Yellow"/>
             <Setter Property="CornerRadius" Value="30"/>
         </Style>
         <Color x:Key="WinningTeamColor">Blue</Color>

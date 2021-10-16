@@ -5,12 +5,13 @@
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.ToolbarPlacement="Bottom"
             android:TabbedPage.BarItemColor="Black"
-            android:TabbedPage.BarSelectedItemColor="Red"
-            xmlns:local="clr-namespace:LegendRank.Views"
+            android:TabbedPage.BarSelectedItemColor="Black"
+            xmlns:LegendRank="clr-namespace:LegendRank.Views"
+            BackgroundImageSource="fondoleague.jpg"
             >
   <!--Pages can be added as references or inline-->
     <TabbedPage.Children>
-        <local:SummonerPage IconImageSource="man"/>
-        <local:RankingPage  IconImageSource="trophy"/>
+        <LegendRank:SummonerPage Title="man" IconImageSource="man"/>
+        <LegendRank:RankingPage  Title="trophy" IconImageSource="trophy"/>
     </TabbedPage.Children>
 </TabbedPage>

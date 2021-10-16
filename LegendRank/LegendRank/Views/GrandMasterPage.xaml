@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:LegendRank.Views"
-             x:Class="LegendRank.Views.GrandMasterPage">
+             x:Class="LegendRank.Views.GrandMasterPage"
+             BackgroundImageSource="fondoleague.jpg">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="First GranMaster"  FontSize="100" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" ></Label>

@@ -6,6 +6,7 @@
              Title="{Binding Title}" 
              BackgroundImageSource="Lulubackground.jpg">
     <ContentPage.Content>
+        
         <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,2*,*" >
 
             <Image Source="LEGENDSRANK.png" 
@@ -25,14 +26,15 @@
                 Margin="0,80,0,0"
                 Placeholder="Username Here"
                 HorizontalTextAlignment="Center"
-                TextColor="White"/>
+                TextColor="White"
+                FontAttributes="Bold"/>
 
 
             <Button 
                 Grid.Row="2" 
                 Grid.Column="1" 
-                Text="Find Summoner Level" 
-                Command="{Binding GetSummonerCommand}" 
+                Text="Find Summoner Level"
+                Command="{Binding GetSummonerCommand}"
                 HorizontalOptions="Center" 
                 VerticalOptions="Start"
                 Margin="0,20,0,0"

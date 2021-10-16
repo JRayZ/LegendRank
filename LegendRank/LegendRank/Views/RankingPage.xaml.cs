@@ -14,5 +14,7 @@ namespace LegendRank.Views
         {
             InitializeComponent();
         }
+
+   
     }
 }

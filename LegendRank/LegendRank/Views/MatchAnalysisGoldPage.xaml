@@ -5,6 +5,7 @@
              xmlns:local="clr-namespace:LegendRank.Views"
              Title="Gold"
              x:Name="ChampionGoldPage"
+             BackgroundImageSource="fondoleague.jpg"
              >
     <ContentPage.Content>
         <Grid RowDefinitions="Auto,*" ColumnDefinitions="*,*" Margin="2" Padding="0">

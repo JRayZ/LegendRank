@@ -4,7 +4,8 @@
              x:Class="LegendRank.Views.MatchAnalysisChampionKillPage"
              xmlns:local="clr-namespace:LegendRank.Views"
              Title="Champion Kills"
-             x:Name="ChampionKillsPage">
+             x:Name="ChampionKillsPage"
+             BackgroundImageSource="fondoleague.jpg">
     <ContentPage.Content>
         <Grid RowDefinitions="Auto, *" ColumnDefinitions="*,*" Margin="2" Padding="0">
             <Label Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center">

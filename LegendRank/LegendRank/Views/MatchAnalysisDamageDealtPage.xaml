@@ -4,7 +4,8 @@
              x:Class="LegendRank.Views.MatchAnalysisDamageDealtPage"
              xmlns:local="clr-namespace:LegendRank.Views"
              Title="Damage Dealt"
-             x:Name="ChampionDamagePage">
+             x:Name="ChampionDamagePage"
+             BackgroundImageSource="fondoleague.jpg">
              
     <ContentPage.Content>
         <Grid RowDefinitions="Auto, *" ColumnDefinitions="*,*" Margin="0">

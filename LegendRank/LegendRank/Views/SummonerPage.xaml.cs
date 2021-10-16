@@ -15,5 +15,15 @@ namespace LegendRank.Views
         {
             InitializeComponent();
         }
+
+        //async void GoToSummonerDetailPage(object sender, EventArgs e)
+        //{
+        //    await Navigation.PushAsync(new SummonerDetailPage(), true);
+        //}
+        
+
     }
+
+
+ 
 }

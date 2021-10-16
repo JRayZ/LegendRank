@@ -23,6 +23,7 @@ namespace LegendRank
             InitializeComponent();
 
             await NavigationService.NavigateAsync($"{NavigationConstant.NavigationPage}/{NavigationConstant.SummonerPage}");
+            await NavigationService.NavigateAsync($"{NavigationConstant.NavigationPage}/{NavigationConstant.MainTabbedPage}");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)

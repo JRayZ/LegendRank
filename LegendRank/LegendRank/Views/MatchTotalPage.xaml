@@ -5,6 +5,7 @@
              xmlns:local="clr-namespace:LegendRank.Views"
              xmlns:controls="clr-namespace:LegendRank.Controls" 
              Title="Total"
+             BackgroundImageSource="fondoleague.jpg"
              >
     <ContentPage.Content>
 

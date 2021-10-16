@@ -1,4 +1,4 @@
-﻿using Android.App;
+﻿//using Android.App;
 using LegendRank.Models;
 using LegendRank.Services;
 using Newtonsoft.Json;
@@ -30,8 +30,8 @@ namespace LegendRank.ViewModels
         public int MostDamage { get; set; }
         public string ParticipantTeamColor { get; set; }
 
-        IChampionService ChampionService { get; }
-        IRuneService RuneService { get; }
+        private IChampionService ChampionService { get; }
+        private IRuneService RuneService { get; }
 
 
         public MatchViewModel(IPageDialogService alertService, IChampionService championService, IRuneService runeService) : base(alertService)
@@ -54,9 +54,9 @@ namespace LegendRank.ViewModels
         {
             WinningTeam = new Team();
             LosingTeam = new Team();
-            AnalysisKills = new ObservableCollection<Participant>(Match.Participants.OrderByDescending((x => x.Stats.Kills)));
-            AnalysisGold = new ObservableCollection<Participant>(Match.Participants.OrderByDescending((x => x.Stats.GoldEarned)));
-            AnalysisDamage = new ObservableCollection<Participant>(Match.Participants.OrderByDescending((x => x.Stats.TotalDamageDealt)));
+            AnalysisKills = new ObservableCollection<Participant>(Match.Participants.OrderByDescending(x => x.Stats.Kills));
+            AnalysisGold = new ObservableCollection<Participant>(Match.Participants.OrderByDescending(x => x.Stats.GoldEarned));
+            AnalysisDamage = new ObservableCollection<Participant>(Match.Participants.OrderByDescending(x => x.Stats.TotalDamageDealt));
 
             MostKills = Match.Participants.Max(x => x.Stats.Kills);
             MostGold = Match.Participants.Max(x => x.Stats.GoldEarned);
